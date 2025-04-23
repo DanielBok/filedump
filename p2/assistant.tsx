@@ -3,7 +3,7 @@ import React from 'react';
 import { Message } from '../types';
 import { Avatar } from 'antd';
 import { RobotOutlined } from '@ant-design/icons';
-import ArtifactRenderer from './ArtifactRenderer';
+import ArtifactRenderer from './artifactrenderer.tsx';
 import MarkdownWithMath from './MarkdownWithMath';
 
 interface AssistantMessageProps {
